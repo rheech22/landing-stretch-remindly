@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Download, Github, ExternalLink, AlertCircle, Zap } from "lucide-react";
 import { DownloadFromStore } from "./download-from-store";
@@ -66,8 +65,8 @@ export function DownloadSection() {
               Get the latest beta version of Stretching Remindly.
             </p>
             <div className="flex flex-col gap-3 w-full">
-              <DownloadFromStore />
               <DownloadDirectly />
+              <DownloadFromStore />
             </div>
           </CardContent>
         </Card>
