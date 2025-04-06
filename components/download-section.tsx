@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Download, Github, ExternalLink, AlertCircle, Zap } from "lucide-react";
+import { DownloadFromStore } from "./download-from-store";
 
 export function DownloadSection() {
   return (
@@ -64,15 +65,7 @@ export function DownloadSection() {
               Get the latest beta version of Stretching Remindly.
             </p>
             <div className="flex flex-col gap-3 w-full">
-              <Button
-                asChild
-                className="cyberpunk-button bg-primary hover:bg-primary/90 w-full"
-              >
-                <a href="#">
-                  <Download className="mr-2 h-4 w-4" />
-                  Download from App Store
-                </a>
-              </Button>
+              <DownloadFromStore />
               <Button
                 asChild
                 variant="outline"
