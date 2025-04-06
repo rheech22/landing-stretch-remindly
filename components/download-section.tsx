@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Download, Github, ExternalLink, AlertCircle, Zap } from "lucide-react";
 import { DownloadFromStore } from "./download-from-store";
+import { DownloadDirectly } from "./download-directly";
 
 export function DownloadSection() {
   return (
@@ -66,16 +67,7 @@ export function DownloadSection() {
             </p>
             <div className="flex flex-col gap-3 w-full">
               <DownloadFromStore />
-              <Button
-                asChild
-                variant="outline"
-                className="cyberpunk-button w-full"
-              >
-                <a href="#">
-                  <Download className="mr-2 h-4 w-4" />
-                  Direct Download (.dmg)
-                </a>
-              </Button>
+              <DownloadDirectly />
             </div>
           </CardContent>
         </Card>
