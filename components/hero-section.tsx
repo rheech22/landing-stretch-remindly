@@ -21,7 +21,7 @@ export function HeroSection() {
                 </span>
               </div>
               <p className="text-xl md:text-2xl text-muted-foreground">
-                <span className="text-secondary">MacOS</span> stretching
+                <span className="text-secondary">macOS</span> stretching
                 reminder for healthy work habits
               </p>
             </div>
