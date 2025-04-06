@@ -30,7 +30,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-muted-foreground mb-4">
-              MacOS stretching reminder app for healthy work habits
+              macOS stretching reminder app for healthy work habits
             </p>
             <div className="flex space-x-4">
               <Link

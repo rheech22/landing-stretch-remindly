@@ -56,7 +56,7 @@ export function DownloadSection() {
               />
             </div>
             <div className="flex items-center gap-2 mb-2">
-              <h3 className="font-orbitron text-xl">Download for MacOS</h3>
+              <h3 className="font-orbitron text-xl">Download for macOS</h3>
               <span className="inline-flex items-center rounded-md bg-secondary/20 px-2 py-1 text-xs font-medium text-secondary">
                 BETA
               </span>

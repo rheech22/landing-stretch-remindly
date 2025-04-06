@@ -9,9 +9,9 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const orbitron = Orbitron({ subsets: ["latin"], variable: "--font-orbitron" });
 
 export const metadata: Metadata = {
-  title: "Stretching Remindly - Stretching Reminder App for MacOS",
+  title: "Stretching Remindly - Stretching Reminder App for macOS",
   description:
-    "A MacOS app that provides stretching reminders based on user-defined intervals",
+    "A macOS app that provides stretching reminders based on user-defined intervals",
   icons: {
     icon: "/images/icon.png",
   },
@@ -39,4 +39,3 @@ export default function RootLayout({
     </html>
   );
 }
-

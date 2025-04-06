@@ -1,10 +1,10 @@
-import type { MetadataRoute } from "next"
+import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "Stretching Remindly",
     short_name: "Remindly",
-    description: "MacOS stretching reminder app for healthy work habits",
+    description: "macOS stretching reminder app for healthy work habits",
     start_url: "/",
     display: "standalone",
     background_color: "#1e1433",
@@ -21,6 +21,5 @@ export default function manifest(): MetadataRoute.Manifest {
         type: "image/png",
       },
     ],
-  }
+  };
 }
-

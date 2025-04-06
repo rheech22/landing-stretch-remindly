@@ -20,8 +20,8 @@ export function FeaturesSection() {
   const currentFeatures = [
     {
       icon: <Clock className="h-10 w-10 text-primary" />,
-      title: "MacOS Device Support",
-      description: "Start you stretching journey on your MacOS device.",
+      title: "macOS Device Support",
+      description: "Start you stretching journey on your macOS device.",
     },
     {
       icon: <Bell className="h-10 w-10 text-primary" />,

@@ -34,12 +34,12 @@ export function FaqSection() {
     {
       question: "How does Stretching Remindly handle notifications?",
       answer:
-        "Stretching Remindly uses MacOS's native notification system to deliver timely, non-intrusive reminders. When your work session timer completes, you'll receive a notification with sound and visual alerts (customizable in settings). The notification includes a direct action button to start your stretching session immediately. You can also configure the notification style—from subtle reminders to more prominent alerts—depending on your preference. The app respects your system's Do Not Disturb settings while ensuring you don't miss important stretching breaks.",
+        "Stretching Remindly uses macOS's native notification system to deliver timely, non-intrusive reminders. When your work session timer completes, you'll receive a notification with sound and visual alerts (customizable in settings). The notification includes a direct action button to start your stretching session immediately. You can also configure the notification style—from subtle reminders to more prominent alerts—depending on your preference. The app respects your system's Do Not Disturb settings while ensuring you don't miss important stretching breaks.",
     },
     //{
     //  question: "Where can I download the app?",
     //  answer:
-    //    "Stretching Remindly is available through multiple channels: 1) MacOS App Store - Search for 'Stretching Remindly' and download directly to your device, 2) Our official website - Visit the download section for the latest version, 3) GitHub releases page - For those who prefer direct downloads. All versions are digitally signed and verified for security. We recommend downloading from official sources to ensure you receive authentic, malware-free software with all the latest features and security updates.",
+    //    "Stretching Remindly is available through multiple channels: 1) macOS App Store - Search for 'Stretching Remindly' and download directly to your device, 2) Our official website - Visit the download section for the latest version, 3) GitHub releases page - For those who prefer direct downloads. All versions are digitally signed and verified for security. We recommend downloading from official sources to ensure you receive authentic, malware-free software with all the latest features and security updates.",
     //},
     {
       question: "What should I do if I encounter issues while using the app?",
