@@ -1,7 +1,8 @@
-"use client"
+"use client";
 
-import Image from "next/image"
-import { Button } from "@/components/ui/button"
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import { AlertCircle } from "lucide-react";
 
 export function HeroSection() {
   return (
@@ -20,17 +21,30 @@ export function HeroSection() {
                 </span>
               </div>
               <p className="text-xl md:text-2xl text-muted-foreground">
-                <span className="text-secondary">MacOS</span> stretching reminder for healthy work habits
+                <span className="text-secondary">MacOS</span> stretching
+                reminder for healthy work habits
               </p>
             </div>
             <p className="max-w-[600px] text-muted-foreground md:text-lg">
-              Prevent health issues caused by prolonged computer work. Stretching Remindly provides regular stretching
-              reminders and guides to optimize your productivity and health.
+              Prevent health issues caused by prolonged computer work.
+              Stretching Remindly provides regular stretching reminders and
+              guides to optimize your productivity and health.
             </p>
-            <div className="bg-muted/30 border border-secondary/20 rounded-md p-3 text-sm text-muted-foreground">
-              <span className="font-medium text-secondary">Beta Version Notice:</span> Stretching Remindly is currently
-              in beta testing. While fully functional, you may encounter occasional issues. We welcome your feedback to
-              improve the app!
+            <div className="max-w-3xl mx-auto mb-10 bg-muted/30 border border-secondary/20 rounded-lg p-4 flex items-start gap-3">
+              <AlertCircle className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
+              <div className="text-sm text-left">
+                <p className="font-medium text-foreground mb-1">
+                  Beta Version Information
+                </p>
+                <p className="text-muted-foreground">
+                  Stretching Remindly is currently in beta testing phase
+                  (v0.0.1). While the core functionality is stable, you may
+                  encounter occasional bugs or incomplete features. We're
+                  actively improving the app based on user feedback. By using
+                  this beta version, you're helping us create a better final
+                  product!
+                </p>
+              </div>
             </div>
             <div className="flex flex-col sm:flex-row gap-3 pt-4">
               <Button
@@ -38,8 +52,10 @@ export function HeroSection() {
                 size="lg"
                 className="cyberpunk-button bg-primary hover:bg-primary/90"
                 onClick={(e) => {
-                  e.preventDefault()
-                  document.getElementById("download")?.scrollIntoView({ behavior: "smooth" })
+                  e.preventDefault();
+                  document
+                    .getElementById("download")
+                    ?.scrollIntoView({ behavior: "smooth" });
                 }}
               >
                 <a href="#download">Download Now</a>
@@ -50,8 +66,10 @@ export function HeroSection() {
                 size="lg"
                 className="cyberpunk-button"
                 onClick={(e) => {
-                  e.preventDefault()
-                  document.getElementById("features")?.scrollIntoView({ behavior: "smooth" })
+                  e.preventDefault();
+                  document
+                    .getElementById("features")
+                    ?.scrollIntoView({ behavior: "smooth" });
                 }}
               >
                 <a href="#features">Explore Features</a>
@@ -82,6 +100,5 @@ export function HeroSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-
