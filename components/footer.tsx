@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Github, Twitter, Mail } from "lucide-react";
 import { PrivacyPolicy } from "@/components/privacy-policy";
 import { TermsOfService } from "@/components/terms-of-service";
+import Newsletter from "./newsletter";
 
 export function Footer() {
   const scrollToSection = (id: string) => {
@@ -113,25 +114,7 @@ export function Footer() {
               </ul>
             </div>
           </div>
-          <div>
-            <h3 className="font-orbitron text-lg mb-4">Newsletter</h3>
-            <p className="text-muted-foreground mb-4">
-              Get the latest updates and feature news.
-            </p>
-            <form className="flex gap-2">
-              <input
-                type="email"
-                placeholder="Email address"
-                className="flex-1 px-3 py-2 bg-muted rounded-md border border-border"
-              />
-              <button
-                type="submit"
-                className="px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors"
-              >
-                Subscribe
-              </button>
-            </form>
-          </div>
+          <Newsletter />
         </div>
         <div className="mt-8 pt-8 border-t border-border/40 text-center text-muted-foreground">
           <p>© 2025 STRETCH_REMINDLY // HEALTH_OPTIMIZATION_SYSTEM</p>
