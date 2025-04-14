@@ -11,23 +11,28 @@ export function DownloadDirectly() {
   const { toast } = useToast();
 
   const handleDownload = async () => {
-    setIsLoading(true);
-    await download.latest(({ error }) => {
-      if (error) {
-        toast({
-          title: "[ ERROR ]",
-          description:
-            "Failed to download the latest version of Stretching Remindly.",
-        });
-        setIsLoading(false);
-        return;
-      }
-      toast({
-        title: "[ INFO ]",
-        description: "Starting the download...",
-      });
-      setIsLoading(false);
+    toast({
+      title: "[ INFO ]",
+      description:
+        "Sorry, It's not available yet. You can clone this GitHub project and run it locally",
     });
+    //setIsLoading(true);
+    //await download.latest(({ error }) => {
+    //  if (error) {
+    //    toast({
+    //      title: "[ ERROR ]",
+    //      description:
+    //        "Failed to download the latest version of Stretching Remindly.",
+    //    });
+    //    setIsLoading(false);
+    //    return;
+    //  }
+    //  toast({
+    //    title: "[ INFO ]",
+    //    description: "Starting the download...",
+    //  });
+    //  setIsLoading(false);
+    //});
   };
 
   return (
